@@ -53,7 +53,7 @@ function Home() {
         <div className="slideshow-controls">
           <button onClick={handlePrevImage} className="slideshow-button">
             <FaArrowLeft />
-          </button>
+          </button>  
           <button onClick={handleNextImage} className="slideshow-button">
             <FaArrowRight />
           </button>
