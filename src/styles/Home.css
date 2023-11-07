@@ -1,0 +1,172 @@
+/* Home.css */
+.hostel-name {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 36px;
+  color: #ffffff; /* Change to a different color (e.g., blue) */
+  font-weight: bold;
+  font-family: 'Arial', sans-serif; /* Change the font family to Arial or another preferred font */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+
+/* Add any additional styles you want for other elements in your Home component */
+
+/* Add this to your existing CSS or create a new CSS file */
+
+.admin-chart {
+  position: absolute;
+  top: 20px; /* Adjust the position as needed */
+  right: 20px; /* Adjust the position as needed */
+  width: 400px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  background: white; /* Adjust the background color as needed */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 1; /* Ensure it's above the image */
+}
+
+
+
+.home-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.background-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slideshow-controls {
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.slideshow-button {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 24px;
+  padding: 10px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slideshow-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* ... Your existing styles ... */
+/* ... Your existing styles ... */
+
+.slideshow-controls {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.slideshow-button {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 20px; /* Adjust the font size to make the arrows smaller */
+  padding: 8px; /* Adjust the padding to make the arrows smaller */
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background 0.3s, opacity 0.3s; /* Add transition for smoother hover effect */
+  opacity: 0; /* Add some transparency to the arrows */
+}
+
+.slideshow-button:hover {
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 1; /* Make the arrows fully opaque on hover */
+}
+
+.slideshow-button:focus {
+  outline: none; /* Remove focus outline if needed */
+}
+
+
+
+/* ... Your existing styles ... */
+
+.background-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 0; /* Increase the z-index to make it appear above other elements */
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* ... Your existing styles ... */
+
+.slideshow-content {
+  position: absolute;
+  bottom: 50px; /* Adjust the bottom distance as needed */
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px;
+  border-radius: 8px;
+  z-index: 1;
+}
+
+.slide-heading {
+  font-weight: bold;
+  color: white;
+  margin: 0;
+  font-size: 24px;
+  margin-bottom: 10px; /* Add margin to push the heading up */
+}
+
+.slide-description {
+  color: white;
+  margin: 0;
+  font-size: 16px;
+  margin-bottom: 10px; /* Add margin to push the description up */
+}
+
+/* ... Your existing styles ... */
+
+/* ... Your existing styles ... */
+
+/* Add this CSS to your existing Home.css or create a new CSS file */
+
+.centered-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 200px); /* Adjust the height as needed to create space for the slideshow */
+}
+
+.centered-cards .card {
+  margin: 10px; /* Adjust the margin as needed to create spacing between cards */
+}

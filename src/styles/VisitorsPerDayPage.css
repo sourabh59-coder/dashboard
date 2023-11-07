@@ -1,0 +1,22 @@
+/* VisitorsPerDayPage.css */
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff; /* Change the background color to white */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px; /* Add more space between the title and chart */
+  }
+  
+  /* Style the chart container */
+  .chart-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
